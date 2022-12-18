@@ -63,10 +63,8 @@ const ContactForm = () => {
       setFormErrors({});
       try {
         //post form data
-        const response = await axios.post(
-          "http://localhost:5000/sendemail",
-          formData
-        );
+        const baseUrl = process.env.REACT_APP_BASE_URL;
+        const response = await axios.post(`${baseUrl}/sendemail`, formData);
         setLoading(false);
         //check server response
         if (response.data.success) {
