@@ -10,9 +10,9 @@
   --color-light: #aca4a473;
   --color-linear-gradient: linear-gradient(
     90deg,
-    rgba(236, 13, 240, 1) 0%,
-    rgba(135, 85, 224, 1) 50%,
-    rgba(74, 166, 252, 1) 100%
+    #ec0df0 0%,
+    #8755e0 50%,
+    #4aa6fc 100%
   );
 }
 
@@ -143,8 +143,9 @@ textarea.input {
 }
 
 .contact-info .logo {
-  width: 40px;
+  width: 90px;
   height: 60px;
+  margin: 10px auto 3px;
 }
 
 .contact-info .title {
@@ -154,7 +155,7 @@ textarea.input {
 .contact-info .text {
   color: var(--color-white);
   margin: 1.5rem 0 2rem 0;
-  text-align: center;
+  /* text-align: center; */
 }
 
 /*Form Error Component Style*/

@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import axios from "axios";
 import FormError from "./FormError";
 import Notification from "./Notification";
-import logo from "../images/logo.webp";
+import logo from "../images/logo.png";
 import LoadingSpinner from "./LoadingSpinner";
 
 const ContactForm = () => {
@@ -97,12 +97,13 @@ const ContactForm = () => {
       <div className="container">
         <div className="contact-info">
           <img className="logo" src={logo} alt="logo" />
-          <h3 className="title">Eretz Mailer</h3>
+          <h3 className="title">Mail Express</h3>
           <p className="text">
-            Our application makes it easy for you to stay connected with your
-            contacts, no matter where you are. Whether you're at the office, on
-            the go, or working remotely, you can send your email from any device
-            with an internet connection.
+            Are you looking to stay connected in the digital age? Mail Express
+            makes it easy for you to stay connected with your contacts, no
+            matter where you are. Whether you're at the office or working
+            remotely, you can send your email from your computer, laptop, and
+            mobile device.
           </p>
         </div>
 
